@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Discover Monterey</title>
+    <!-- Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+
+   <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="home_en.html">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="about_en.html">About Monterey<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Things to Do<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Top Restaurants</a></li>
+                    <li><a href="#">Family Fun</a></li>
+                    <li><a href="#">Recreational Trail</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Wine Tours and Tastings</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Whale Watching Tours</a></li>
+                  </ul>
+              </li>
+            </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">City Services</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="home_en.html"><img src="en.png"></img> English</a></li> 
+                    <li><a href="home_ru.html"><img src="ru.png"></img> русский</a></li> 
+                    <li><a href="home_zh.html"><img src="zh.png"></img> 简体中文</a></li>   
+                  </ul>
+                </li>
+              </ul>
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  
+  <script src="jquery.min.js"></script>
+
+   <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>   
+
+     <div class="carousel-inner">
+
+        <div class="item active">
+        <div class="carousel-caption">
+            <h3>Come visit the greatest meeting of land, sea and sky!</h3>
+        </div>
+            <img src="sky.jpg" alt="First slide">
+        </div>
+
+        <div class="item">
+        <div class="carousel-caption">
+            <h3>Join us in appreciating the living things in the ocean. </h3>
+        </div>
+           <img src="https://raw.githubusercontent.com/weiyuren/blogpostpics/master/aquarium_meitu_1.jpg" alt="Second slide">
+        </div>
+
+        <div class="item">
+        <div class="carousel-caption">
+            <h3>Feel the warmth and peace radiating from stunning sunset!</h3>
+        </div>
+           <img src="sunset.jpg" alt="Third slide">
+        </div>
+
+     </div>
+
+     <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;</a>
+     <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;</a>
+  </div> 
+
+  <script>
+     $(function(){
+        $('#myCarousel').on('slide.bs.carousel', function () {
+         
+        });
+     });
+  </script>
+
+    <div class="container">
+        <h2>Visitors are talking about these places</h2>
+         <h4>Not sure where to visit? We've created amazing guides for destinations in Monterey.</h4>
+      
+    <div class="row">
+         
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#"><img src="source file/1_en.jpg"></a>
+          </div>
+
+          <div class="thumbnail">
+            <a href="#"><img src="source file/3_en.jpg"></a>
+         </div>
+        </div>
+       
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#"><img src="source file/2_en.jpg"></a>
+          </div>
+
+          <div class="thumbnail">
+            <a href="#"><img src="source file/4_en.jpg"></a>
+          </div>
+        </div>
+         
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#"><img src="source file/5_en.jpg"></a>
+          </div>
+        </div>
+    </div>
+      
+      <div class="learn-more">
+  	   <div class="container">
+  	    <div class="row">
+    	     <div class="col-md-4"> 		
+      			<h3>Travel with our app</h3>
+        			<p>You are here! Our app is now available to provide more for you to explore!</p>
+          			<p><a href="#">See how to travel with us with the mobile app</a></p>
+    	     </div>
+
+      	<div class="col-md-4">
+  			    <h3>Sign-up for monthly newsletter</h3>
+        			<p>Keep yourself updated with what's going on here in Monterey</p>
+          			<p><a href="#">Learn more about newsletters</a></p>
+        </div>
+  		  
+        <div class="col-md-4">  		  
+  			    <h3>Travel Forum</h3>
+        			<p>Learn from your fellow travelers. Tap the community to help get the most out of your next trip. </p>
+          			<p><a href="#">Learn about Monterey Travel Forum</a></p>
+  		  </div>
+
+      	   </div>
+      	  </div>
+      	</div>
+      </div>
+
+
+  <footer>
+    <div class="bottominfo">
+        <div class="col-md-12">
+           <h3>Connect with us</h3>
+             <p>Monterey City Hall</p>
+             <p>Mailing address:</br>
+                580 Pacific Street </br>
+                Monterey, CA 93940 </br>
+        </div>
+        
+        <div class="col-md-12">
+        <p>© 2015 Weiyu Ren @Middlebury Institute of International Studies at Monterey</p>
+        </div>
+    </div>
+  </footer>
+
+  </body>
+
+
+
+<script src="bootstrap.min.js"></script>
+<script src="jquery.min.js"></script>
+</html>
+
+
+
+
+
+
+

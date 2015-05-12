@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Discover Monterey</title>
+    <!-- Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+<!--     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+
+   <body>
+
+    
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="active" href="#">Home</a>
+      </div> -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About Monterey<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Things to Do<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Top Restaurants</a></li>
+              <li><a href="#">Family Fun</a></li>
+              <li><a href="#">Recreational Trail</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Wine Tours and Tastings</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Whale Watching Tours</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form> -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">City Services</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#"><img src="en.png"></img> English</a></li> 
+              <li><a href="#"><img src="ru.png"></img> русский</a></li> 
+              <li><a href="#"><img src="zh.png"></img> 简体中文</a></li>   
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- <div class="nav">
+        <div class="container">
+          <ul class="pull-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Monterey</a></li>
+          </ul>
+          <ul class="pull-right">
+            <li><a href="#">Visitors' Guide</a></li>
+            <li><a href="#">Things To Do</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+      </div> -->
+  <!-- 
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Discover Monterey!</h1>
+          <p id="first-line">Come visit the greatest meeting of land, sea and sky for yourself!</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div> 
+      <div class="neighborhood-guides" -->
+  <!-- <head> -->
+     
+     <!-- <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> -->
+  <script src="jquery.min.js"></script>
+      <!-- <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> -->
+  <!-- </head> -->
+
+  <!-- <body> -->
+   <div id="myCarousel" class="carousel slide">
+      <!-- 轮播（Carousel）指标 -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" 
+           class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+     </ol>   
+     <!-- 轮播（Carousel）项目 -->
+     <div class="carousel-inner">
+        <div class="item active">
+        <div class="carousel-caption">
+            <h3>Come visit the greatest meeting of land, sea and sky!</h3>
+        </div>
+            <img src="sky.jpg" alt="First slide">
+        </div>
+        <div class="item">
+        <div class="carousel-caption">
+            <h3>Join us in appreciating the living things in the ocean. </h3>
+        </div>
+           <img src="https://raw.githubusercontent.com/weiyuren/blogpostpics/master/aquarium_meitu_1.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+        <div class="carousel-caption">
+            <h3>Feel the warmth and peace radiating from stunning sunset!</h3>
+        </div>
+           <img src="sunset.jpg" alt="Third slide">
+        </div>
+     </div>
+     <!-- 轮播（Carousel）导航 -->
+     <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;</a>
+     <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;</a>
+  </div> 
+  <script>
+     $(function(){
+        $('#myCarousel').on('slide.bs.carousel', function () {
+         
+        });
+     });
+  </script>
+
+  <!-- </body> -->
+       
+    <div class="container">
+        <h2>Visitors are talking about these places</h2>
+         <h4>Not sure where to visit? We've created amazing guides for destinations in Monterey.</h4>
+      <div class="row">
+         <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="#"><img src="source file/1_en.jpg"></a>
+          </div>
+
+          <div class="thumbnail">
+          <a href="#"><img src="source file/3_en.jpg"></a>
+         </div>
+      </div>
+       
+      <div class="col-md-4">
+          <div class="thumbnail">
+         <a href="#"><img src="source file/2_en.jpg"></a>
+         </div>
+
+         <div class="thumbnail">
+        <a href="#"><img src="source file/4_en.jpg"></a>
+         </div>
+      </div>
+         
+      <div class="col-md-4">
+         <div class="thumbnail">
+         <a href="#"><img src="source file/5_en.jpg"></a>
+         </div>
+         </div>
+         
+      </div>
+      
+      <div class="learn-more">
+  	  <div class="container">
+  	    <div class="row">
+  	      <div class="col-md-4">
+  		
+  			<h3>Travel with our app</h3>
+  			<p>You are here! Our app is now available to provide more for you to explore!</p>
+  			<p><a href="#">See how to travel with us with the mobile app</a></p>
+  	      </div>
+  		<div class="col-md-4">
+  			<h3>Sign-up for monthly newsletter</h3>
+  			<p>Keep yourself updated with what's going on here in Monterey</p>
+  			<p><a href="#">Learn more about newsletters</a></p>
+      </div>
+  		  
+        <div class="col-md-4">
+  		  
+  			<h3>Travel Forum</h3>
+  			<p>Learn from your fellow travelers. Tap the community to help get the most out of your next trip. </p>
+  			<p><a href="#">Learn about Monterey Travel Forum</a></p>
+  		  </div>
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+
+
+  <!-- <a class="btn btn-default" href="#" role="button">Link</a>
+  <button class="btn btn-default" type="submit">Button</button>
+  <input class="btn btn-default" type="button" value="Input">
+  <input class="btn btn-default" type="submit" value="Submit">
+    </body> -->
+
+
+
+<!-- <!-- <head>
+   <title>Bootstrap 实例 - 轮播（Carousel）插件事件</title>
+   <!-- <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script> -->
+   
+<!-- </head> -->
+
+  <footer>
+    <div class="bottominfo">
+        <div class="col-md-12">
+           <h3>Connect with us</h3>
+             <p>Monterey City Hall</p>
+             <p>Mailing address:</br>
+                580 Pacific Street </br>
+                Monterey, CA 93940 </br>
+        </div>
+        
+        <div class="col-md-12">
+        <p>© 2015 Weiyu Ren @Middlebury Institute of International Studies at Monterey</p>
+        </div>
+    </div>
+  </footer>
+
+
+
+<script src="bootstrap.min.js"></script>
+<script src="jquery.min.js"></script>
+</html>
+
+
+
+
+
+
+
